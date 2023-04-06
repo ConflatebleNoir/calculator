@@ -1,6 +1,13 @@
+import AppHeader from "../AppHeader/AppHeader"
+import Main from "../Main/Main"
+import styles from './App.module.css'
+
 const App = () => {
     return (
-        <h1>Entertainment advisor</h1>
+        <div className={styles.App}>
+            <AppHeader />
+            <Main />
+        </div>
     )
 }
 
