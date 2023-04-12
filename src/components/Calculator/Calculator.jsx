@@ -23,7 +23,7 @@ class Calculator extends Component {
             <div className={styles.container}>
                 <div className={styles.display}>
                     <input className={styles.input} type="text" value={this.result} disabled />
-                    <Button color={"8B8000"} number={"C"} />
+                    <Button operator={"C"} />
                 </div>
                 <div className={styles.buttons}>
                     <div className={styles.numbers}>

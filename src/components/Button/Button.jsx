@@ -22,18 +22,13 @@ class Button extends Component {
         const { isHovered } = this.state;
         const classNumber = {
             backgroundColor: "#D3D3D3",
-            color: "#000",
-            scale: isHovered ? '1.05' : null,
+            fontSize: isHovered ? '24px' : null,
         };
         const classOperator = {
             backgroundColor: "#FFF44F",
-            color: "#000",
-            scale: isHovered ? '1.05' : null,
         };
         const classEqual = {
             backgroundColor: "#FFCCCB",
-            color: "#000",
-            scale: isHovered ? '1.05' : null,
             width: "108px",
             borderRadius: "20px",
         };

@@ -9,7 +9,7 @@
     font: 900 18px/14px 'Lato', sans-serif;
     border-radius: 50%;
     border: none;
-    color: #fff;
+    color: #000;
     transition: ease .2s;
     cursor: pointer;
 }
