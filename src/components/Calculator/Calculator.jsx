@@ -27,23 +27,23 @@ class Calculator extends Component {
                 </div>
                 <div className={styles.buttons}>
                     <div className={styles.numbers}>
-                        <Button number={7} />
-                        <Button number={8} />
-                        <Button number={9} />
-                        <Button number={4} />
-                        <Button number={5} />
-                        <Button number={6} />
-                        <Button number={3} />
-                        <Button number={2} />
-                        <Button number={1} />
-                        <Button number={0} />
-                        <Button number={"="} />
+                        <Button number={"7"} />
+                        <Button number={"8"} />
+                        <Button number={"9"} />
+                        <Button number={"4"} />
+                        <Button number={"5"} />
+                        <Button number={"6"} />
+                        <Button number={"3"} />
+                        <Button number={"2"} />
+                        <Button number={"1"} />
+                        <Button number={"0"} />
+                        <Button equal={"="} />
                     </div>
                     <div className={styles.operators}>
-                        <Button number={"+"} />
-                        <Button number={"-"} />
-                        <Button number={"÷"} />
-                        <Button number={"X"} />
+                        <Button operator={"+"} />
+                        <Button operator={"-"} />
+                        <Button operator={"÷"} />
+                        <Button operator={"X"} />
                     </div>
                 </div>
             </div>
