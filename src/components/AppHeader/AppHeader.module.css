@@ -1,8 +1,4 @@
-.search {
-    position: relative;
-}
-
-.menu {
+.header {
     background-color: #000;
     opacity: .9;
     display: flex;

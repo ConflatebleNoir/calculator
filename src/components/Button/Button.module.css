@@ -1,0 +1,15 @@
+.number__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    font: 900 18px/14px 'Lato', sans-serif;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    transition: ease .2s;
+    cursor: pointer;
+}

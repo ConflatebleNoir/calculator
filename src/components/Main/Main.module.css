@@ -1,4 +1,16 @@
 .main {
-    background-color: #808080;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 90vh;
+    box-sizing: border-box;
+}
+
+.title {
+    user-select: none;
+    font: 700 32px/24px 'JosefinSans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
